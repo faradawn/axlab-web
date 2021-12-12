@@ -1,3 +1,6 @@
+# ignore api keys
+.env
+
 .DS_Store
 node_modules
 /dist
