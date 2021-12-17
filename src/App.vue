@@ -1,20 +1,11 @@
 <template>
-  <div id="app">
-    <Homepage/>
-  </div>
+  <div id="#app">
+    <router-view></router-view>
+  </div>  
 </template>
 
 <script>
-import Homepage from './components/Homepage.vue'
-
 export default {
-  name: 'App',
-  components: {
-    Homepage
-  }
+  name: 'App',   
 }
 </script>
-
-<style>
-
-</style>

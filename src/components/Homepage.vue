@@ -7,7 +7,7 @@
       <h2 class="logo">AxLab</h2>
       <div class="toggle"></div>
     </header>
-    <video src="https://video.wixstatic.com/video/b6ee1a_034dda09950d493b88cf2c8052ee04fa/1080p/mp4/file.mp4" muted loop autoplay></video>
+    <video src="https://video.wixstatic.com/video/b6ee1a_034dda09950d493b88cf2c8052ee04fa/1080p/mp4/file.mp4" muted loop autoplay playsinline></video>
     <div class="overlay"></div>
     <div class="text">
       <h2>Never Stop To </h2> 
@@ -35,6 +35,13 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </div>
+
+  <section class="second">
+    <div>
+      <h2>my works
+      </h2>
+    </div>
+  </section>
 
 </div>
 </template>
@@ -136,7 +143,7 @@ header .logo
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   opacity: 0.8;
 }
